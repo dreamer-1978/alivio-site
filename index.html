@@ -18,9 +18,32 @@
   <body>
     <header class="header">
       <div class="container">
-        <svg>
+        <div class="header__wrapper">
+          <svg class="logo" aria-label="logo">
             <use href="./asserts/img/sprites.svg#logo-icon"></use>
-        </svg>
+          </svg>
+          <nav class="header__nav" aria-label="navigation">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Why Alivio</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Solutions</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Community</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Pricing</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__action">
+            <button type="button" class="btn btn--white">Sign in</button>
+            <button type="button" class="btn">Start Trial</button>
+          </div>
+        </div>
       </div>
     </header>
   </body>

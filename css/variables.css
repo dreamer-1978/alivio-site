@@ -9,4 +9,10 @@
     --color-text-large: #484848;
     --color-text-light: #424242;
     --color-text-green: #01996d;
+
+
+    --breakpoint-phone: 576px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-notebook: 992px;
+    --breakpoint-desktop: 1200px;
 }
