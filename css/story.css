@@ -29,7 +29,8 @@
 
 .story__img {
     max-width: 780px;
-    height: 450px;
+    object-fit: cover;
+    aspect-ratio: 158/91;
 }
 
 @media (max-width: 1200px) {
@@ -47,7 +48,6 @@
 
     .story__img {
         max-width: 580px;
-        height: 350px;
     }
 }
 
