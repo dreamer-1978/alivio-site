@@ -38,6 +38,7 @@
     object-fit: cover;
     border-radius: 12px;
     aspect-ratio: auto 65/82;
+    box-shadow: 5px 5px 8px #868585;
 }
 
 .card__title-second::before {
