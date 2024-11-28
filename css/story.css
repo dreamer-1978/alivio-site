@@ -1,6 +1,6 @@
 .story {
     background-color: var(--bg-color-footer);
-    padding: 220px 0 250px 0;
+    padding: 220px 10px 250px 10px;
 }
 
 .story__container {
@@ -10,6 +10,7 @@
 .story__block {
     display: flex;
     flex-direction: column;
+    max-width: 580px;
 }
 
 .story__title {
@@ -28,9 +29,30 @@
 }
 
 .story__img {
+    position: relative;
     max-width: 780px;
+}
+
+.story__image {
+    width: 100%;
     object-fit: cover;
     aspect-ratio: 158/91;
+    border-radius: 15px;
+}
+
+.story__icon {
+    position: absolute;
+    width: 72px;
+    height: 73px;
+    fill: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: fill .7s;
+}
+
+.story__icon:hover{
+    fill: red;
 }
 
 @media (max-width: 1200px) {
@@ -66,6 +88,6 @@
         text-align: center;
     }
     .story__btn {
-       margin: 0 auto;
+        margin: 0 auto;
     }
 }
