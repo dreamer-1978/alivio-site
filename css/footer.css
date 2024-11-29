@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--bg-color-footer);
+    padding: 95px 0 134px 0;
+}
+
+.logo-white {
+    fill: var(--bg-color);
+    margin-bottom: 60px;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 75px;
+}
+
+.footer__nav {
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    color: var(--bg-color);
+}
+
+@media (max-width: 1024px) {
+    .footer__wrapper {
+        align-items:center;
+       justify-content: center;
+       text-align: center;
+    }
+}

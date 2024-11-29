@@ -1,0 +1,75 @@
+.mini-card {
+    position: absolute;
+    bottom: -50px;
+    left: -50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 296px;
+    height: 293px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    padding: 27px 0 30px 0;
+    box-shadow: 0px 2px 1px 1px var(--color-text-dark);
+}
+
+.mini-card__title {
+    font-size: 14.49px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.mini-card__title::after {
+    content: "";
+    margin: 7px 0;
+    width: 110ppx;
+    height: 1px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-card__img {
+    width: 57.44px;
+    height: 57.44px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-color: #cbe7db;
+}
+
+.mini-card__name {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.mini-card__content {
+    font-size: 15px;
+}
+
+.mini-card__ul {
+    display: flex;
+    flex-direction: column;
+    margin-right: 21px;
+}
+
+.mini-card__item {
+    text-align: left;
+    position: relative;
+}
+
+.mini-card__item::before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: -10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.mini-card__link {
+    font-size: 10px;
+    font-weight: 400;
+}

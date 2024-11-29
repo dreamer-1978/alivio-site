@@ -42,6 +42,7 @@
 }
 
 .logo {
+    fill: var(--color-text-green);
 }
 .btn {
     color: var(--bg-color);
