@@ -47,6 +47,68 @@
         </div>
       </div>
     </header>
+    
+    <div class="mobile-navigation">
+      <label for="menu-toggler-id">
+        <svg
+          class="mobile-navigation__burger"
+          viewBox="0 0 32 32"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="burger,-menu,-more,-sort" fill="none" fill-rule="evenodd">
+            <path
+              id="Shape"
+              d="m28 23v2h-24v-2zm0-8v2h-24v-2zm0-8v2h-24v-2z"
+              fill="rgb(0,0,0)"
+              fill-rule="nonzero"></path>
+          </g>
+        </svg>
+      </label>
+
+      <input
+        type="checkbox"
+        name="toggler"
+        id="menu-toggler-id"
+        class="mobile-navigation__toggler" />
+
+      <nav class="mobile-navigation__menu" aria-label="navigation-menu">
+        <ul class="mobile-navigation__list">
+          <li class="mobile-navigation__item">
+            <a href="#" class="mobile-navigation__link">Why Alivio</a>
+          </li>
+          <li class="mobile-navigation__item">
+            <a href="#" class="mobile-navigation__link">Solutions</a>
+          </li>
+          <li class="mobile-navigation__item">
+            <a href="#" class="mobile-navigation__link">Community</a>
+          </li>
+          <li class="mobile-navigation__item">
+            <a href="#" class="mobile-navigation__link">Pricing</a>
+          </li>
+        </ul>
+
+        <label for="menu-toggler-id" class="mobile-navigation__close">
+          <svg
+            class="mobile-navigation__cross"
+            version="1.1"
+            id="cross"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 612 612"
+            style="enable-background: new 0 0 612 612"
+            xml:space="preserve">
+            <g>
+              <g id="cross">
+                <g>
+                  <polygon
+                    points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397 306,341.411 576.521,611.397 612,575.997 341.459,306.011 " />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </label>
+      </nav>
+    </div>
+
     <main>
       <section class="hero">
         <div class="container">
@@ -159,20 +221,25 @@
           <div class="product__wrapper">
             <div class="product__img">
               <img src="./asserts/img/girl.webp" alt="girl" />
-                          <div class="mini-card">
-              <h2 class="mini-card__title">Customized For</h2>
-              <img src="./asserts/img/face.png" alt="" class="mini-card__img" />
-              <p class="mini-card__name">Mikayla</p>
-              <h3 class="mini-card__content">Your custom contents</h3>
-              <ul class="mini-card__ul">
-                <li class="mini-card__item">
-                  <a href="#" class="mini-card__link">Understand Your Stress</a>
-                </li>
-                <li class="mini-card__item">
-                  <a href="#" class="mini-card__link">Anger Management</a>
-                </li>
-              </ul>
-            </div>
+              <div class="mini-card">
+                <h2 class="mini-card__title">Customized For</h2>
+                <img
+                  src="./asserts/img/face.png"
+                  alt=""
+                  class="mini-card__img" />
+                <p class="mini-card__name">Mikayla</p>
+                <h3 class="mini-card__content">Your custom contents</h3>
+                <ul class="mini-card__ul">
+                  <li class="mini-card__item">
+                    <a href="#" class="mini-card__link"
+                      >Understand Your Stress</a
+                    >
+                  </li>
+                  <li class="mini-card__item">
+                    <a href="#" class="mini-card__link">Anger Management</a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="product__our">
               <h3 class="product__text">Our product</h3>

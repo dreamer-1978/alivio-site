@@ -4,7 +4,7 @@
 
 .product__wrapper {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 .product__img {
@@ -14,7 +14,7 @@
     padding-left: 50px;
 }
 
-.product__img img:first-child{
+.product__img img:first-child {
     margin-left: 50px;
 }
 
@@ -77,7 +77,13 @@
         margin: 0 auto;
     }
 
-    .product__img img:first-child{
-    margin-left: 0px;
+    .product__img img:first-child {
+        margin-left: 0px;
+    }
 }
+
+@media (max-width: 760px) {
+    .product__img {
+        display: none;
+    }
 }
